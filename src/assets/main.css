@@ -1,0 +1,32 @@
+@import './base.css';
+
+#app {
+  font-family: sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+
+.container, .navbar, .payment-summary {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+.hero {
+  background: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0) 100%), url("img/hero.png");
+  background-size: cover;
+  height: 600px;
+  object-fit: cover;
+  background-attachment: fixed;
+}
+
+.judul {
+  text-align: center;
+  padding-top: 250px;
+  font-size: 50px;
+  color: rgb(255, 132, 0);
+  font-weight: bold;
+}
+
+
